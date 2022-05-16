@@ -9,6 +9,8 @@
  import cake6 from '../assets/cake6.jpg';
  import cake7 from '../assets/cake7.jpg';
  import letters from '../assets/letters.png';
+ import cakeutensils from '../assets/cakeutensils.png';
+ import rollingpin from '../assets/rollingpin.png';
 
 export default {
     blackrubberspatula,
@@ -22,5 +24,7 @@ export default {
     cake6,
     cake7,
     letters,
+    cakeutensils,
+    rollingpin,
 
 };
