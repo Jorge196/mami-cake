@@ -3,27 +3,27 @@ import images from './images';
 const cakes = [
   {
     title: 'Tres Leche Cake ',
-    price: '$',
+    price: '$45 and up',
     tags: 'Dominican cake | Vanilla cake | tres leche |  1lb',
   },
   {
     title: 'Classic Dominican Cake w/ filling of your choice',
-    price: '$',
+    price: '$45 and up',
     tags: 'Dominican Cake| filling of choice | 1lb',
   },
   {
     title: 'Chocolate Cake',
-    price: '$',
+    price: '$45 and up',
     tags: 'Chocolate cake | 1lb',
   },
   {
     title: 'Vanilla cake w/ filling of your choice',
-    price: '$',
+    price: '$45 and up',
     tags: 'Vanilla| filling of choice | 1 lb',
   },
   {
     title: 'Red Velvet',
-    price: '$',
+    price: '$45 and up',
     tags: ' Red Velvet| 1 lb',
   },
 ];

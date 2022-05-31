@@ -16,7 +16,8 @@ const SpecialMenu = () => (
         <p className="app__specialMenu_menu_heading">Slices</p>
         <div className="app__specialMenu_menu_items">
           {data.slices.map((slice, index) => (
-            <p>{slice.title}</p>
+            <MenuItem key={slice.title + index} title={slice.title} price={slice.price} tags={slice.tags} />
+
           ))}
         </div>
       </div>
@@ -29,7 +30,7 @@ const SpecialMenu = () => (
         <p className="app__specialMenu_menu_heading">Cakes</p>
         <div className="app__specialMenu_menu_items">
           {data.cakes.map((cake, index) => (
-            <p>{cake.title}</p>
+            <MenuItem key={cake.title + index} title={cake.title} price={cake.price} tags={cake.tags} />
           ))}
         </div>
       </div>
